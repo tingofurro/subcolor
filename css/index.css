@@ -1,0 +1,30 @@
+@import url(//fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700);
+body {
+	padding: 0px;
+	margin: 0px;
+	background: #7f7f7f;
+}
+#title {
+	text-align: center;
+	line-height: 150px;
+	font-size: 90px;
+	font-family: Roboto Slab;
+	font-weight: 700;
+	text-shadow: 1px 1px 0px white, -1px 1px 0px white, 1px -1px 0px white, -1px -1px 0px white;
+}
+#container {
+}
+.cLevel1, .cLevel2, .cLevel3 {
+	float: left;
+	text-align: center;
+	padding: 40px 0px;
+}
+.color {
+	border: 1px solid white;
+}
+.level1, .level2, .level3 {
+	margin: auto;
+}
+.level1 {
+	margin-bottom: 40px;
+}
