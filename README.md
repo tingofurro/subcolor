@@ -17,7 +17,7 @@ At the second layer, the Green will be associated with 3 other greens (that are 
 Assume you represent data within a tree and need each node on the tree to be matched to a color.
 It would be nice that when going down the tree, there is a color convergence.
 
-# What does "equally spaced" means
+# What does "equally spaced" mean
 
 Using the HSL model for colors on a screen, this method makes sure the entire hue Spectrum is used, as well as almost all the Lightness spectrum.
 The Saturation is left constant to keep a unified feelings on all colors.
