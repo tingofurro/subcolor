@@ -59,6 +59,11 @@ function nextLevel(level, hRange, s, lRange, myObj) {
 		}
 	}
 }
+function openJson() {
+	$('html, body').animate({
+		scrollTop: $('#jsonObject').offset().top
+	}, 500);
+}
 function radius(lvl) {
 	return 0.1*Math.min($(window).width(), $(window).height())*lvl;
 }
